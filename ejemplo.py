@@ -14,7 +14,12 @@ doc=r.json()
 print(type(doc))
 
 for info in doc["data"]["country"]:
-    print(info["federation"]["name"])
+    if info["name"]=="Champions League":
+        print(info)
+    #if info["is_real"]=="0":
+        #print(info["name"])
+    #if type(info["national_team"])!="dict":
+        #print(info["name"])
 
 #AFC,CAF,UEFA,CONMEBOL,FIFA
 
