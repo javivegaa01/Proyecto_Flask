@@ -7,7 +7,8 @@ import os
 URL_BASE="https://livescore-api.com/api-client/"
 KEY=os.environ["key"]
 SECRET=os.environ["secret"]
-r=requests.get(URL_BASE+"matches/stats.json?match_id=172252&key="+KEY+"&secret="+SECRET)
+payload={'key':KEY,'secret':SECRET}
+r=requests.get(URL_BASE+"matches/stats.json?match_id=172252&",params=payload)
 doc=r.json()
 
 print(type(doc))
