@@ -44,9 +44,10 @@ for info in dic_champions_league["data"]["table"]:
     lista=[]
     lista=[info["rank"],info["name"],info["points"],info["goal_diff"]]
     datos.append(lista)
-titulo=["GRUPO A",""]
-print(tabulate(titulo,headers='firstrow',tablefmt='fancy_grid',stralign='center',floatfmt='.0f'))
-print(tabulate(datos,headers=['Puesto','Equipo','Puntos','Goal Average'],tablefmt='fancy_grid',stralign='center',floatfmt='.0f'))
+
+
+print("                          GRUPO %s" % lista_grupos[4])
+print(tabulate(datos,headers=['Puesto','Equipo','Puntos','Goal Average'],tablefmt='fancy_grid',stralign='center',floatfmt='.89f'))
 
     
 
