@@ -5,7 +5,6 @@
 import requests
 import json
 import os
-from tabulate import tabulate
 
 #Declaración de variables
 URL_BASE="https://livescore-api.com/api-client/"
