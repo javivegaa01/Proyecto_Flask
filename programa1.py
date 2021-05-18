@@ -56,7 +56,7 @@ if a=="":
             datos.append(lista)
         print()
         print("                          GRUPO %s" % grupos)
-        print(tabulate(datos,headers=['Puesto','Equipo','Puntos','Goal Average'],tablefmt='fancy_grid',stralign='center',floatfmt='.89f'))
+        print(tabulate(datos,headers=['Puesto','Equipo','Puntos','Goal Average'],tablefmt='fancy_grid',stralign='center',floatfmt='.0f'))
         payload.pop('group',grupos)
 
 print()
