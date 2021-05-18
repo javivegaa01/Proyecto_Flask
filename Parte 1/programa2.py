@@ -1,3 +1,4 @@
+#Enunciado:
 #Introduce el nombre de una competición y averigua su máximo goleador.
 
 #Librerias necesarias
