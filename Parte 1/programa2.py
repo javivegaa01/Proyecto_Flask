@@ -23,9 +23,9 @@ for info in dic_info_competiciones["data"]["competition"]:
 
 
 #PROGRAMA
-#print()
-#print("Bienvenido al programa")
-#print()
+print()
+print("Bienvenido al programa")
+print()
 nombre_liga=input("Introduce el nombre de una competición: ")
 if nombre_liga not in lista_nombre_competiciones:
     print()
