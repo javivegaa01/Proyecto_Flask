@@ -17,10 +17,10 @@ dic_lista_paises=r_lista_paises.json()
 print()
 print("Bienvenido al programa")
 print()
+
 continuar=input("¿Quieres comenzar a ver las ligas de cada país? (s/n)" )
+
 while continuar=="s":
-    if continuar=="n":
-        break
     for info in dic_lista_paises["data"]["country"]:
         lista=[]
         pais=info["name"]
@@ -43,7 +43,11 @@ while continuar=="s":
                 else:
                     print("Lo siento, no hay datos sobre %s" % pais)
             payload.pop('country',cad[1])
-    continuar=input("¿Continuas? (s/n)")
+            print()
+            continuar=input("¿Continuas con el programa? (s/n)")
+            print()
+            if continuar=="n":
+                break
 
 print()
 print("Fin del programa")
