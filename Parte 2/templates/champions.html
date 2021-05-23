@@ -27,10 +27,41 @@
 {% endblock %}
 
 {% block contenido %}
-<table>
-<caption>Resultados</caption>
-{% for grupo in datos -%}
-    <p>{{grupo}}</p>
+{% for grupos in datos -%}
+    <table>
+        <caption>Resultados</caption>
+        <tr>
+            <th>Ranking</th>
+            <th>Equipo</th>
+            <th>Puntos</th>
+            <th>Diferencia de goles</th>
+        </tr>
+        <tr>
+    
+            <th>
+                {% for rank in grupos[0] -%}
+                    <p>{{rank}}</p>
+                {% endfor -%}
+            </th>
+   
+            <th>
+                {% for nombre in grupos[1] -%}
+                    <p>{{nombre}}</p>
+                {% endfor -%}
+            </th>
+   
+            <th>
+                {% for puntos in grupos[2] -%}
+                    <p>{{puntos}}</p>
+                {% endfor -%}
+            </th>
+
+            <th>
+                {% for dg in grupos[3] -%}
+                    <p>{{dg}}</p>
+                {% endfor -%}
+            </th>
+        </tr>
+    </table>
 {% endfor -%}
-</table>
 {% endblock %}

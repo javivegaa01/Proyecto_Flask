@@ -40,16 +40,23 @@ def champions_league():
     for info in dic_info_competiciones["data"]["competition"]:
         if info["name"]=="Champions League" and info["federations"][0]["name"]=="UEFA":
             payload["competition_id"]=info["id"]
+    lista_ranking=[]
+    lista_equipo=[]
+    lista_puntos=[]
+    lista_dg=[]
+    datos=[]
     for grupos in lista_grupos:
         payload["group"]=grupos
         r_champions_league=requests.get(URL_BASE+'leagues/table.json',params=payload)
         dic_champions_league=r_champions_league.json()
-        datos=[]
         for info in dic_champions_league["data"]["table"]:
-            lista=[]
             lista=[info["rank"],info["name"],info["points"],info["goal_diff"]]
+            lista_ranking.append(info["rank"])
+            lista_equipo.append(info["name"])
+            lista_puntos.append(info["points"])
+            lista_dg.append(info["goal_diff"])
             datos.append(lista)
-    return render_template("champions.html",datos=datos)
+    return render_template("champions.html",lista_grupos=lista_grupos,lista_ranking=lista_ranking,lista_equipo=lista_equipo,lista_puntos=lista_puntos,lista_dg=lista_dg)
 #port=os.environ["PORT"]
 #'0.0.0.0',int(port)
 app.run(debug=True)
