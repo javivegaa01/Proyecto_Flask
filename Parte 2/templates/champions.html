@@ -27,11 +27,10 @@
 {% endblock %}
 
 {% block contenido %}
-
-    {% for grupo in datos -%}
-
-        <p>{{grupo}}</p>
-
-        {% end for -%}
-
+<table>
+<caption>Resultados</caption>
+{% for grupo in datos -%}
+    <p>{{grupo}}</p>
+{% endfor -%}
+</table>
 {% endblock %}
