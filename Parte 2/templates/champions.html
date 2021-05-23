@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block tittle %}Champions League{% endblock %}
+{% block titulo %}UEFA Champions League{% endblock %}
+{% block header %}
+<nav id="nav">
+    <ul>
+        <li><a href="inicio.html">Home</a></li>
+        <li>
+            <a href="#">Futbol Español</a>
+            <ul>
+                <li><a href="#">Selección Española</a></li>
+                <li>
+                    <a href="#">Liga Santander</a>
+                    <ul>
+                        <li><a href="#">Clasificación</a></li>
+                        <li><a href="#">Goleadores</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="current"><a href="/champions">Champions League</a></li>
+        <li><a href="right-sidebar.html">Europa League</a></li>
+        <li><a href="two-sidebar.html">Premier League</a></li>
+        <li><a href="no-sidebar.html">Euro20200</a></li>
+    </ul>
+</nav>
+{% endblock %}
+
+{% block contenido %}
+
+    {% for grupo in datos -%}
+
+        <p>{{grupo}}</p>
+
+        {% end for -%}
+
+{% endblock %}
