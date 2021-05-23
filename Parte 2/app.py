@@ -7,6 +7,7 @@ app = Flask(__name__)
 def inicio():
 	return render_template("inicio.html")
 
+def 
 #port=os.environ["PORT"]
 #'0.0.0.0',int(port)
 app.run(debug=True)
