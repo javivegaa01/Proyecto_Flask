@@ -1,8 +1,8 @@
 import os
 import json
+from lxml import etree
 import requests
 from flask import Flask, render_template,abort
-from tabulate import tabulate
 app = Flask(__name__)
 
 #Declaración de variables
@@ -10,7 +10,7 @@ URL_BASE="https://livescore-api.com/api-client/"
 KEY=os.environ["key"]
 SECRET=os.environ["secret"]
 payload={'key':KEY,'secret':SECRET}
-
+doc_xml=etree.parse("fut.xml")
 
 
 @app.route('/',methods=["GET"])
@@ -40,6 +40,7 @@ def champions_league():
     for info in dic_info_competiciones["data"]["competition"]:
         if info["name"]=="Champions League" and info["federations"][0]["name"]=="UEFA":
             payload["competition_id"]=info["id"]
+    lista_equipo=[]
     lista_ranking=[]
     lista_puntos=[]
     lista_dg=[]
@@ -50,11 +51,32 @@ def champions_league():
         for info in dic_champions_league["data"]["table"]:
             if info["rank"] not in lista_ranking:
                 lista_ranking.append(lista_ranking)
-            lista=[info["rank"],info["name"],info["points"],info["goal_diff"]]
-            lista_equipo.append(info["name"])
-            lista_puntos.append(info["points"])
-            lista_dg.append(info["goal_diff"])
+        for info in dic_champions_league["data"]["table"]:
+            for num in range(len(lista_ranking)):
+                if info["rank"]==lista_ranking[num]:
+                    lista=[]
+                    lista2=[]
+                    lista3=[]
+                    lista.append(info["name"])
+                    lista2.append(info["points"])
+                    lista3.append(info["goal_diff"])
+                    lista_equipo.append(lista)
+                    lista_puntos.append(lista2)
+                    lista_dg.append(lista3)
     return render_template("champions.html",lista_grupos=lista_grupos,lista_ranking=lista_ranking,lista_equipo=lista_equipo,lista_puntos=lista_puntos,lista_dg=lista_dg)
+
+@app.route('/clasificacion',methods=["GET"])
+def clasificacion():
+    nombres= doc_xml.xpath("//clasificacion/team/name/text()")
+    puntos= doc_xml.xpath("//clasificacion/team/points/text()")
+    goles_marcados=doc_xml.xpath("//clasificacion/team/goals_scored/text()")
+    goles_encajados=doc_xml.xpath("//clasificacion/team/goals_conceded/text()")
+    diferencia_de_goles=[]
+    for elem1,elem2 in zip(goles_marcados,goles_encajados):
+        a=int(elem1)-int(elem2)
+        diferencia_de_goles.append(str(a))
+    return render_template("clasificacion.html",lista_nombres=nombres,lista_puntos=puntos,lista_goles=diferencia_de_goles)
+
 #port=os.environ["PORT"]
 #'0.0.0.0',int(port)
 app.run(debug=True)

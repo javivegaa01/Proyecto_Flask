@@ -1,0 +1,1117 @@
+<marcador>
+    <competicion id="1">
+        <nombre>LFP 1 DIVISION</nombre>
+        <fase id="0"></fase>
+        <jornada id="2" jornadaAnterior="https://www.marca.com/marcador/futbol/iphone/1/2018_19/fase0/jornada_1/marcador.xml" jornadaSiguiente="https://www.marca.com/marcador/futbol/iphone/1/2018_19/fase0/jornada_3/marcador.xml"/>
+        <temporada>2018_19</temporada>
+        <grupos>
+            <grupo id="1">
+                <eventos>
+                    <evento id="510680">
+                        <hora>20:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="109">Getafe</equipolocal>
+                        <equipovisitante id="106">Eibar</equipovisitante>
+                        <resultadolocal>2</resultadolocal>
+                        <resultadovisitante>0</resultadovisitante>
+                        <estadisticas>
+                        	<equipoLocal>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>Getafe</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>36</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Remates</nombre>
+                                    <valor>7</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Remates a Puerta</nombre>
+                                    <valor>4</valor>
+                                </estadistica>
+                                <estadistica>
+                                        <nombre>Tiros al palo</nombre>
+                                    <valor>0</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Córners a Favor</nombre>
+                                    <valor>5</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Intervenciones del Portero</nombre>
+                                    <valor>0</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Balones Perdidos</nombre>
+                                    <valor>174</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Balones Recuperados</nombre>
+                                    <valor>50</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Faltas Cometidas</nombre>
+                                    <valor>14</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Tarjetas Amarillas</nombre>
+                                    <valor>2</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Tarjetas Rojas</nombre>
+                                    <valor>0</valor>
+                                </estadistica>
+                            </equipoLocal>
+                            <equipoVisitante>		
+                                <estadistica>
+                                    <nombre>Nombre</nombre>
+                                    <valor>Eibar</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Posesión</nombre>
+                                    <valor>64</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Remates</nombre>
+                                    <valor>9</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Remates a Puerta</nombre>
+                                    <valor>0</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Tiros al palo</nombre>
+                                    <valor>0</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Córners a Favor</nombre>
+                                    <valor>5</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Intervenciones del Portero</nombre>
+                                    <valor>2</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Balones Perdidos</nombre>
+                                    <valor>205</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Balones Recuperados</nombre>
+                                    <valor>69</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Faltas Cometidas</nombre>
+                                    <valor>11</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Tarjetas Amarillas</nombre>
+                                    <valor>1</valor>
+                                </estadistica>
+                                <estadistica>
+                                    <nombre>Tarjetas Rojas</nombre>
+                                    <valor>0</valor>
+                                </estadistica>
+                            </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                    <evento id="510677">
+                        <hora>22:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="111">Leganés</equipolocal>
+                        <equipovisitante id="15">R. Sociedad</equipovisitante>
+                        <resultadolocal>2</resultadolocal>
+                        <resultadovisitante>2</resultadovisitante>
+                        <estadisticas>
+                        	<equipoLocal>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>Leganés</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>67</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates</nombre>
+		                            <valor>18</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates a Puerta</nombre>
+		                            <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tiros al palo</nombre>
+		                            <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Córners a Favor</nombre>
+		                            <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Intervenciones del Portero</nombre>
+		                            <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Perdidos</nombre>
+		                            <valor>168</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Recuperados</nombre>
+		                            <valor>62</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Faltas Cometidas</nombre>
+		                            <valor>12</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Amarillas</nombre>
+		                            <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Rojas</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+	                        </equipoLocal>
+	                        <equipoVisitante>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>Real Sociedad</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>33</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates</nombre>
+		                            <valor>7</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates a Puerta</nombre>
+		                            <valor>6</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tiros al palo</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Córners a Favor</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Intervenciones del Portero</nombre>
+		                            <valor>2</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Perdidos</nombre>
+		                            <valor>140</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Recuperados</nombre>
+		                            <valor>49</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Faltas Cometidas</nombre>
+		                            <valor>9</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Amarillas</nombre>
+		                            <valor>2</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Rojas</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+	                        </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                    <evento id="51068678">
+                        <hora>20:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="109">Getafe</equipolocal>
+                        <equipovisitante id="1982">R.Madrid</equipovisitante>
+                        <resultadolocal>0</resultadolocal>
+                        <resultadovisitante>3</resultadovisitante>
+                        <estadisticas>
+                        	<equipoLocal>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>Getafe</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>40</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates</nombre>
+		                            <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates a Puerta</nombre>
+		                            <valor>2</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tiros al palo</nombre>
+		                            <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Córners a Favor</nombre>
+		                            <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Intervenciones del Portero</nombre>
+		                            <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Perdidos</nombre>
+		                            <valor>168</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Recuperados</nombre>
+		                            <valor>67</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Faltas Cometidas</nombre>
+		                            <valor>20</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Amarillas</nombre>
+		                            <valor>3</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Rojas</nombre>
+		                            <valor>2</valor>
+		                        </estadistica>
+	                        </equipoLocal>
+	                        <equipoVisitante>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>R.Madrid</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>60</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates</nombre>
+		                            <valor>20</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates a Puerta</nombre>
+		                            <valor>16</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tiros al palo</nombre>
+		                            <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Córners a Favor</nombre>
+		                            <valor>18</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Intervenciones del Portero</nombre>
+		                            <valor>3</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Perdidos</nombre>
+		                            <valor>26</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Recuperados</nombre>
+		                            <valor>76</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Faltas Cometidas</nombre>
+		                            <valor>9</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Amarillas</nombre>
+		                            <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Rojas</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+	                        </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                    <evento id="510671">
+                        <hora>18:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="92">Alavés</equipolocal>
+                        <equipovisitante id="5">Betis</equipovisitante>
+                        <resultadolocal>0</resultadolocal>
+                        <resultadovisitante>0</resultadovisitante>
+                        <estadisticas>
+                            <equipoLocal>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>Alavés</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>33</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates</nombre>
+		                            <valor>16</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates a Puerta</nombre>
+		                            <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tiros al palo</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Córners a Favor</nombre>
+		                            <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Intervenciones del Portero</nombre>
+		                            <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Perdidos</nombre>
+		                            <valor>121</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Recuperados</nombre>
+		                            <valor>48</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Faltas Cometidas</nombre>
+		                            <valor>17</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Amarillas</nombre>
+		                            <valor>3</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Rojas</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+	                        </equipoLocal>
+	                        <equipoVisitante>		
+		                        <estadistica>
+		                            <nombre>Nombre</nombre>
+		                            <valor>Real Betis</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Posesión</nombre>
+		                            <valor>67</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates</nombre>
+		                            <valor>12</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Remates a Puerta</nombre>
+		                            <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Tiros al palo</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Córners a Favor</nombre>
+		                            <valor>6</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Intervenciones del Portero</nombre>
+		                            <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Perdidos</nombre>
+		                            <valor>134</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Balones Recuperados</nombre>
+		                            <valor>63</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                            <nombre>Faltas Cometidas</nombre>
+		                            <valor>15</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                        <nombre>Tarjetas Amarillas</nombre>
+		                            <valor>1</valor>
+		                            </estadistica>
+		                        <estadistica>
+		                            <nombre>Tarjetas Rojas</nombre>
+		                            <valor>0</valor>
+		                        </estadistica>
+	                        </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                    <evento id="510673">
+                        <hora>20:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="3">Atlético</equipolocal>
+                        <equipovisitante id="13">Rayo</equipovisitante>
+                        <resultadolocal>1</resultadolocal>
+                        <resultadovisitante>0</resultadovisitante>
+                        <estadisticas>
+                        <equipoLocal>		
+		                        <estadistica>
+                                    <nombre>Nombre</nombre>
+                                    <valor>Atlético de Madrid</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Posesión</nombre>
+                                    <valor>47</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates</nombre>
+                                    <valor>9</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates a Puerta</nombre>
+                                    <valor>2</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tiros al palo</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Córners a Favor</nombre>
+                                    <valor>8</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Intervenciones del Portero</nombre>
+                                    <valor>3</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Perdidos</nombre>
+                                    <valor>150</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Recuperados</nombre>
+                                    <valor>59</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Faltas Cometidas</nombre>
+                                    <valor>7</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Amarillas</nombre>
+                                    <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Rojas</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+	                        </equipoLocal>
+	                        <equipoVisitante>		
+		                        <estadistica>
+                                    <nombre>Nombre</nombre>
+                                    <valor>Rayo Vallecano</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Posesión</nombre>
+                                    <valor>53</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates</nombre>
+                                    <valor>13</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates a Puerta</nombre>
+                                    <valor>3</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tiros al palo</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                          <nombre>Córners a Favor</nombre>
+                                    <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Intervenciones del Portero</nombre>
+                                    <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Perdidos</nombre>
+                                    <valor>153</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Recuperados</nombre>
+                                    <valor>63</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Faltas Cometidas</nombre>
+                                    <valor>8</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Amarillas</nombre>
+                                    <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Rojas</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+	                        </equipoVisitante>   
+                        </estadisticas>
+                    </evento>
+                    <evento id="510679">
+                        <hora>22:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="20">Valladolid</equipolocal>
+                        <equipovisitante id="4">Barcelona</equipovisitante>
+                        <resultadolocal>0</resultadolocal>
+                        <resultadovisitante>1</resultadovisitante>
+                        <estadisticas>
+                            <equipoLocal>		
+	                            <estadistica>
+                                    <nombre>Nombre</nombre>
+                                    <valor>Real Valladolid</valor>
+	                            </estadistica>
+		                        <estadistica>
+                                    <nombre>Posesión</nombre>
+                                    <valor>36</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates</nombre>
+	                                    <valor>7</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates a Puerta</nombre>
+                                    <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tiros al palo</nombre>
+		                            <valor>0</valor>
+                                </estadistica>
+		                        <estadistica>
+                                    <nombre>Córners a Favor</nombre>
+                                    <valor>6</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Intervenciones del Portero</nombre>
+                                    <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Perdidos</nombre>
+                                    <valor>126</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Recuperados</nombre>
+                                    <valor>64</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Faltas Cometidas</nombre>
+                                    <valor>13</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Amarillas</nombre>
+                                    <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Rojas</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+	                        </equipoLocal>
+	                        <equipoVisitante>		
+		                        <estadistica>
+                                    <nombre>Nombre</nombre>
+                                    <valor>Barcelona</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Posesión</nombre>
+                                    <valor>64</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Remates</nombre>
+                                    <valor>10</valor>
+		                        </estadistica>
+		                        <estadistica>
+		                          <nombre>Remates a Puerta</nombre>
+                                    <valor>5</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tiros al palo</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Córners a Favor</nombre>
+                                    <valor>10</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Intervenciones del Portero</nombre>
+                                    <valor>4</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Perdidos</nombre>
+                                    <valor>150</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Balones Recuperados</nombre>
+                                    <valor>67</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Faltas Cometidas</nombre>
+                                    <valor>11</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Amarillas</nombre>
+                                    <valor>1</valor>
+		                        </estadistica>
+		                        <estadistica>
+                                    <nombre>Tarjetas Rojas</nombre>
+                                    <valor>0</valor>
+		                        </estadistica>
+	                        </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                    <evento id="510674">
+                        <hora>18:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="9">Espanyol</equipolocal>
+                        <equipovisitante id="21">Valencia</equipovisitante>
+                        <resultadolocal>2</resultadolocal>
+                        <resultadovisitante>0</resultadovisitante>
+                        <estadisticas>
+	                            <equipoLocal>		
+		                            <estadistica>
+                                        <nombre>Nombre</nombre>
+                                        <valor>Espanyol</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Posesión</nombre>
+                                        <valor>48</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Remates</nombre>
+                                        <valor>19</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Remates a Puerta</nombre>
+                                        <valor>9</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Tiros al palo</nombre>
+                                        <valor>1</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Córners a Favor</nombre>
+                                        <valor>6</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Intervenciones del Portero</nombre>
+                                        <valor>3</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Balones Perdidos</nombre>
+                                        <valor>129</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Balones Recuperados</nombre>
+                                        <valor>69</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Faltas Cometidas</nombre>
+                                        <valor>16</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Tarjetas Amarillas</nombre>
+                                        <valor>1</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Tarjetas Rojas</nombre>
+                                        <valor>0</valor>
+		                            </estadistica>
+	                            </equipoLocal>
+	                            <equipoVisitante>		
+		                             <estadistica>
+                                        <nombre>Nombre</nombre>
+                                        <valor>Valencia CF</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Posesión</nombre>
+                                        <valor>52</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Remates</nombre>
+                                        <valor>16</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Remates a Puerta</nombre>
+                                        <valor>4</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Tiros al palo</nombre>
+                                        <valor>0</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Córners a Favor</nombre>
+                                        <valor>10</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Intervenciones del Portero</nombre>
+                                        <valor>7</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Balones Perdidos</nombre>
+                                        <valor>131</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Balones Recuperados</nombre>
+                                        <valor>62</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Faltas Cometidas</nombre>
+                                        <valor>12</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Tarjetas Amarillas</nombre>
+                                        <valor>1</valor>
+		                            </estadistica>
+		                            <estadistica>
+                                        <nombre>Tarjetas Rojas</nombre>
+                                        <valor>0</valor>
+		                            </estadistica>
+	                            </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                    <evento id="510676">
+                        <hora>22:15</hora>
+                        <estado id="3">Finalizado</estado>
+                        <equipolocal id="302">Girona</equipolocal>
+                        <equipovisitante id="14">R. Madrid</equipovisitante>
+                        <resultadolocal>1</resultadolocal>
+                        <resultadovisitante>4</resultadovisitante>
+                        <tipodeporte>1</tipodeporte>
+                        <estadisticas>
+	                            <equipoLocal>		
+		                            <estadistica>
+		                                <nombre>Nombre</nombre>
+		                                <valor>Girona</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Posesión</nombre>
+		                                <valor>34</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Remates</nombre>
+		                                <valor>10</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Remates a Puerta</nombre>
+		                                <valor>5</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Tiros al palo</nombre>
+		                                <valor>0</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Córners a Favor</nombre>
+		                                <valor>4</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Intervenciones del Portero</nombre>
+		                                <valor>4</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Balones Perdidos</nombre>
+		                                <valor>120</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Balones Recuperados</nombre>
+		                                <valor>56</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Faltas Cometidas</nombre>
+		                                <valor>13</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Tarjetas Amarillas</nombre>
+		                                <valor>2</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Tarjetas Rojas</nombre>
+		                                <valor>0</valor>
+		                            </estadistica>
+	                            </equipoLocal>
+	                            <equipoVisitante>		
+		                            <estadistica>
+		                                <nombre>Nombre</nombre>
+		                                <valor>Real Madrid</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Posesión</nombre>
+		                                <valor>66</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Remates</nombre>
+		                                <valor>20</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Remates a Puerta</nombre>
+		                                <valor>8</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Tiros al palo</nombre>
+		                                <valor>0</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Córners a Favor</nombre>
+		                                <valor>7</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Intervenciones del Portero</nombre>
+		                                <valor>4</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Balones Perdidos</nombre>
+		                                <valor>113</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Balones Recuperados</nombre>
+		                                <valor>52</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Faltas Cometidas</nombre>
+		                                <valor>11</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Tarjetas Amarillas</nombre>
+		                                <valor>3</valor>
+		                            </estadistica>
+		                            <estadistica>
+		                                <nombre>Tarjetas Rojas</nombre>
+		                                <valor>0</valor>
+		                            </estadistica>
+	                            </equipoVisitante>
+                        </estadisticas>
+                    </evento>
+                </eventos>
+                <clasificacion>
+                    <team>
+                        <name>Barcelona</name>
+                        <rank>1</rank>
+                        <points>14</points>
+                        <played>7</played>
+                        <won>4</won>
+                        <lost>1</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>18</goals_scored>
+                        <goals_conceded>8</goals_conceded>
+                    </team>
+                    <team>
+                        <name>R.Madrid</name>
+                        <rank>2</rank>
+                        <points>14</points>
+                        <played>7</played>
+                        <won>4</won>
+                        <lost>1</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>12</goals_scored>
+                        <goals_conceded>6</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Sevilla</name>
+                        <rank>3</rank>
+                        <points>13</points>
+                        <played>7</played>
+                        <won>4</won>
+                        <lost>2</lost>
+                        <drawn>1</drawn>
+                        <goals_scored>16</goals_scored>
+                        <goals_conceded>7</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Atlético</name>
+                        <rank>4</rank>
+                        <points>12</points>
+                        <played>7</played>
+                        <won>3</won>
+                        <lost>1</lost>
+                        <drawn>3</drawn>
+                        <goals_scored>8</goals_scored>
+                        <goals_conceded>4</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Betis</name>
+                        <rank>5</rank>
+                        <points>12</points>
+                        <played>7</played>
+                        <won>3</won>
+                        <lost>1</lost>
+                        <drawn>3</drawn>
+                        <goals_scored>5</goals_scored>
+                        <goals_conceded>5</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Alavés</name>
+                        <rank>6</rank>
+                        <points>11</points>
+                        <played>7</played>
+                        <won>3</won>
+                        <lost>2</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>10</goals_scored>
+                        <goals_conceded>8</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Espanyol</name>
+                        <rank>7</rank>
+                        <points>11</points>
+                        <played>7</played>
+                        <won>3</won>
+                        <lost>2</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>8</goals_scored>
+                        <goals_conceded>6</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Celta</name>
+                        <rank>8</rank>
+                        <points>10</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>1</lost>
+                        <drawn>4</drawn>
+                        <goals_scored>12</goals_scored>
+                        <goals_conceded>10</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Getafe</name>
+                        <rank>9</rank>
+                        <points>9</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>2</lost>
+                        <drawn>3</drawn>
+                        <goals_scored>6</goals_scored>
+                        <goals_conceded>6</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Valladolid</name>
+                        <rank>10</rank>
+                        <points>9</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>2</lost>
+                        <drawn>3</drawn>
+                        <goals_scored>6</goals_scored>
+                        <goals_conceded>6</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Girona</name>
+                        <rank>11</rank>
+                        <points>9</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>2</lost>
+                        <drawn>3</drawn>
+                        <goals_scored>8</goals_scored>
+                        <goals_conceded>10</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Villarreal</name>
+                        <rank>12</rank>
+                        <points>8</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>3</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>5</goals_scored>
+                        <goals_conceded>4</goals_conceded>
+                    </team>
+                    <team>
+                        <name>R.Sociedad</name>
+                        <rank>13</rank>
+                        <points>8</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>3</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>9</goals_scored>
+                        <goals_conceded>10</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Valencia</name>
+                        <rank>14</rank>
+                        <points>8</points>
+                        <played>7</played>
+                        <won>1</won>
+                        <lost>1</lost>
+                        <drawn>5</drawn>
+                        <goals_scored>5</goals_scored>
+                        <goals_conceded>6</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Athletic</name>
+                        <rank>15</rank>
+                        <points>7</points>
+                        <played>6</played>
+                        <won>1</won>
+                        <lost>1</lost>
+                        <drawn>4</drawn>
+                        <goals_scored>8</goals_scored>
+                        <goals_conceded>10</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Levante</name>
+                        <rank>16</rank>
+                        <points>7</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>4</lost>
+                        <drawn>1</drawn>
+                        <goals_scored>11</goals_scored>
+                        <goals_conceded>14</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Eibar</name>
+                        <rank>17</rank>
+                        <points>7</points>
+                        <played>7</played>
+                        <won>2</won>
+                        <lost>4</lost>
+                        <drawn>1</drawn>
+                        <goals_scored>6</goals_scored>
+                        <goals_conceded>10</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Rayo</name>
+                        <rank>18</rank>
+                        <points>5</points>
+                        <played>6</played>
+                        <won>1</won>
+                        <lost>3</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>7</goals_scored>
+                        <goals_conceded>14</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Huesca</name>
+                        <rank>19</rank>
+                        <points>5</points>
+                        <played>7</played>
+                        <won>1</won>
+                        <lost>4</lost>
+                        <drawn>2</drawn>
+                        <goals_scored>7</goals_scored>
+                        <goals_conceded>17</goals_conceded>
+                    </team>
+                    <team>
+                        <name>Leganés</name>
+                        <rank>20</rank>
+                        <points>4</points>
+                        <played>7</played>
+                        <won>1</won>
+                        <lost>5</lost>
+                        <drawn>1</drawn>
+                        <goals_scored>6</goals_scored>
+                        <goals_conceded>12</goals_conceded>
+                    </team>
+                </clasificacion>
+            </grupo>
+        </grupos>
+    </competicion>
+</marcador>

@@ -43,8 +43,10 @@
                 {% endfor -%}
             </th>
             <th>
-                {% for  in  -%}
-                    <p>{{}}</p>
+                {% for a in range(1,4) -%}
+                    {% for equipo in lista_equipo[a] -%}
+                        <p>{{equipo}}</p>
+                    {% endfor -%}
                 {% endfor -%}
             </th>
         </tr>
