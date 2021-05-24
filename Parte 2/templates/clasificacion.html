@@ -4,16 +4,15 @@
 {% block header %}
 <nav id="nav">
     <ul>
-        <li><a href="inicio.html">Home</a></li>
-        <li>
+        <li><a href="/">Home</a></li>
+        <li class="current">
             <a href="#">Futbol Español</a>
             <ul>
                 <li><a href="#">Selección Española</a></li>
                 <li>
                     <a href="#">Liga Santander</a>
                     <ul>
-                        <li class="current"><a href="/clasificacion">Clasificación</a></li>
-                        <li><a href="#">Goleadores</a></li>
+                        <li> <a href="/clasificacion">Clasificación</a></li>
                     </ul>
                 </li>
             </ul>
@@ -48,4 +47,16 @@
         </th>
     </tr>
 </table>
+<br></br>
+<body>
+    <div class="container">
+        <form action="/" method="post">
+            <label>Jugador:</label>
+            <input type="text" name="d" value="{{d}}" required/>
+            <label>Usuario:</label>
+            <input type="text" name="u" value="{{u}}" required/>
+            <input type="submit" value="Enviar"/>
+        </form>
+    </div>
+</body>
 {% endblock %}
