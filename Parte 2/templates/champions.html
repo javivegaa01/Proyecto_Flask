@@ -39,10 +39,18 @@
                 {% endfor -%}
             </th>
             <th>
-                {% for a in range(1,4) -%}
-                    {% for equipo in lista_equipo[a] -%}
-                        <p>{{equipo}}</p>
-                    {% endfor -%}
+                {% for equipo in lista_equipo[lista_grupos.index(letra)] -%}
+                    <p>{{equipo}}</p>
+                {% endfor -%}
+            </th>
+            <th>
+                {% for punto in lista_puntos[lista_grupos.index(letra)] -%}
+                    <p>{{punto}}</p>
+                {% endfor -%}
+            </th>
+            <th>
+                {% for dg in lista_dg[lista_grupos.index(letra)] -%}
+                    <p>{{dg}}</p>
                 {% endfor -%}
             </th>
         </tr>

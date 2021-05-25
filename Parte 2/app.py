@@ -48,21 +48,18 @@ def champions_league():
         payload["group"]=grupos
         r_champions_league=requests.get(URL_BASE+'leagues/table.json',params=payload)
         dic_champions_league=r_champions_league.json()
+        lista=[]
+        lista2=[]
+        lista3=[]
         for info in dic_champions_league["data"]["table"]:
+            lista.append(info["name"])
+            lista2.append(info["points"])
+            lista3.append(info["goal_diff"])
             if info["rank"] not in lista_ranking:
-                lista_ranking.append(lista_ranking)
-        for info in dic_champions_league["data"]["table"]:
-            for num in range(len(lista_ranking)):
-                if info["rank"]==lista_ranking[num]:
-                    lista=[]
-                    lista2=[]
-                    lista3=[]
-                    lista.append(info["name"])
-                    lista2.append(info["points"])
-                    lista3.append(info["goal_diff"])
-                    lista_equipo.append(lista)
-                    lista_puntos.append(lista2)
-                    lista_dg.append(lista3)
+                lista_ranking.append(info["rank"])
+        lista_equipo.append(lista)
+        lista_puntos.append(lista2)
+        lista_dg.append(lista3)
     return render_template("champions.html",lista_grupos=lista_grupos,lista_ranking=lista_ranking,lista_equipo=lista_equipo,lista_puntos=lista_puntos,lista_dg=lista_dg)
 
 @app.route('/clasificacion',methods=["GET"])

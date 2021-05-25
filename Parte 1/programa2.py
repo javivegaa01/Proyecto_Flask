@@ -21,7 +21,6 @@ for info in dic_info_competiciones["data"]["competition"]:
         lista_nombre_competiciones.append(info["name"])
         lista_id_competiciones.append(info["id"])
 
-
 #PROGRAMA
 print()
 print("Bienvenido al programa")
