@@ -74,6 +74,23 @@ def clasificacion():
         diferencia_de_goles.append(str(a))
     return render_template("clasificacion.html",lista_nombres=nombres,lista_puntos=puntos,lista_goles=diferencia_de_goles)
 
+@app.route('/clasificacion/<equipo>')
+def gol(equipo):
+    r_info_competiciones=requests.get(URL_BASE+'competitions/list.json',params=payload)
+    dic_info_competiciones=r_info_competiciones.json()
+    lista_id_competiciones=[]
+    lista_nombre_competiciones=[]
+    for info in dic_info_competiciones["data"]["competition"]:
+        if info["id"] not in lista_id_competiciones:
+            lista_nombre_competiciones.append(info["name"])
+            lista_id_competiciones.append(info["id"])
+    payload["competition_id"]=lista_id_competiciones[lista_nombre_competiciones.index("LaLiga Santander")]
+    r_info_goleadores=requests.get(URL_BASE+"competitions/goalscorers.json",params=payload)
+    dic_goleadores=r_info_goleadores.json()
+    for info in dic_goleadores["data"]["goalscorers"]:
+        if info["team"]["name"]==equipo:
+            return render_template("goleador.html",jugador=info["name"],goles=info["goals"],equipo=equipo)
+
 #port=os.environ["PORT"]
 #'0.0.0.0',int(port)
 app.run(debug=True)

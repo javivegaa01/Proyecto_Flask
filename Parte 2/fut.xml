@@ -902,7 +902,7 @@
                         <goals_conceded>8</goals_conceded>
                     </team>
                     <team>
-                        <name>R.Madrid</name>
+                        <name>Real Madrid</name>
                         <rank>2</rank>
                         <points>14</points>
                         <played>7</played>
@@ -924,7 +924,7 @@
                         <goals_conceded>7</goals_conceded>
                     </team>
                     <team>
-                        <name>Atlético</name>
+                        <name>Atlético de Madrid</name>
                         <rank>4</rank>
                         <points>12</points>
                         <played>7</played>
@@ -935,7 +935,7 @@
                         <goals_conceded>4</goals_conceded>
                     </team>
                     <team>
-                        <name>Betis</name>
+                        <name>Real Betis</name>
                         <rank>5</rank>
                         <points>12</points>
                         <played>7</played>

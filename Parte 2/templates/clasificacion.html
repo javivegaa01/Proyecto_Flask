@@ -18,6 +18,7 @@
             </ul>
         </li>
         <li><a href="/champions">Champions League</a></li>
+        <li><a href="/premier">Premier League</a></li>
     </ul>
 </nav>
 {% endblock %}
@@ -32,7 +33,9 @@
     <tr>
         <th>
             {% for equipo in lista_nombres -%}
+            <a href="/clasificacion/{{equipo}}">
                 <p>{{equipo}}</p>
+            </a>
             {% endfor -%}
         </th>
         <th>
