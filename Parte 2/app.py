@@ -13,12 +13,12 @@ payload={'key':KEY,'secret':SECRET}
 doc_xml=etree.parse("fut.xml")
 
 
-@app.route('/',methods=["GET"])
+@app.route('/',methods=["GET","POST"])
 def inicio():
 	return render_template("inicio.html")
 
           
-@app.route('/champions',methods=["GET"])
+@app.route('/champions',methods=["GET","POST"])
 def champions_league():
     ##Lista competiciones
     r_competiciones=requests.get(URL_BASE+"countries/list.json",params=payload)
@@ -62,7 +62,7 @@ def champions_league():
         lista_dg.append(lista3)
     return render_template("champions.html",lista_grupos=lista_grupos,lista_ranking=lista_ranking,lista_equipo=lista_equipo,lista_puntos=lista_puntos,lista_dg=lista_dg)
 
-@app.route('/clasificacion',methods=["GET"])
+@app.route('/clasificacion',methods=["GET","POST"])
 def clasificacion():
     nombres= doc_xml.xpath("//clasificacion/team/name/text()")
     puntos= doc_xml.xpath("//clasificacion/team/points/text()")
@@ -74,7 +74,7 @@ def clasificacion():
         diferencia_de_goles.append(str(a))
     return render_template("clasificacion.html",lista_nombres=nombres,lista_puntos=puntos,lista_goles=diferencia_de_goles)
 
-@app.route('/clasificacion/<equipo>')
+@app.route('/clasificacion/<equipo>',methods=["GET"])
 def gol(equipo):
     r_info_competiciones=requests.get(URL_BASE+'competitions/list.json',params=payload)
     dic_info_competiciones=r_info_competiciones.json()
@@ -91,6 +91,9 @@ def gol(equipo):
         if info["team"]["name"]==equipo:
             return render_template("goleador.html",jugador=info["name"],goles=info["goals"],equipo=equipo)
 
+@app.route('/premier',methods=["GET","POST"])
+def premier():
+    return render_template("premier.html")
 #port=os.environ["PORT"]
 #'0.0.0.0',int(port)
 app.run(debug=True)
