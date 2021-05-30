@@ -112,6 +112,5 @@ def premier():
         dic_head2head=r_head2head.json()
         lista=[dic_head2head["data"]["h2h"][0]["date"],dic_head2head["data"]["h2h"][0]["home_name"],dic_head2head["data"]["h2h"][0]["away_name"],dic_head2head["data"]["h2h"][0]["ft_score"]]
         return render_template("premier.html",lista=lista,lista_equipos=lista_equipos)
-#port=os.environ["PORT"]
-#'0.0.0.0',int(port)
-app.run(debug=True)
+port=os.environ["PORT"]
+app.run('0.0.0.0',int(port),debug=False)
