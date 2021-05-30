@@ -8,7 +8,6 @@
         <li>
             <a href="#">Futbol Español</a>
             <ul>
-                <li><a href="#">Selección Española</a></li>
                 <li>
                     <a href="#">Liga Santander</a>
                     <ul>
@@ -21,4 +20,53 @@
         <li class="current"><a href="/premier">Premier League</a></li>
     </ul>
 </nav>
+{% endblock %}
+{% block contenido %}
+<body>
+    <div class="container">
+        <div class="row gtr-200">
+            <h3>Bienvenido al 'juego' head_2_head , tienes debajo un listado de equipos de la Premier League junto con sus codigos de búsqueda, con ellos puedes averiguar cúal fue el último partido que jugaron esos dos equipos.</h3>
+            {% for equipos in lista_equipos -%}
+                <section class="col-4 col-12-narrower">
+                    <div class="box highlight">
+                        <p>{{equipos}}</p>
+                    </div>
+                </section>
+            {% endfor -%}
+        </div>
+    </div>
+    <br></br>
+    <div class="container">
+        <form method="POST" action="/premier ">
+            <label>Codigo primer equipo</label>
+            <input type="text" name="team1_id" placeholder="Codigo" value="{{team1_id}}" />
+            </br>
+            <label> Codigo segundo equipo</label>
+            <input type="text" name="team2_id" placeholder="Codigo" value="{{team2_id}}" />
+            </br>
+            <input type="submit" value="Buscar" />
+            <br></br>
+        </form>
+    </div>
+    {% if lista %}
+    <br></br>
+    <div class="container">
+        <table>
+            <caption><h3>Partido</h3></caption>
+            <tr>
+                <th>Fecha</th>
+                <th>Local</th>
+                <th>Visitante</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <th>{{lista[0]}}</th>
+                <th>{{lista[1]}}</th>
+                <th>{{lista[2]}}</th>
+                <th>{{lista[3]}}</th>
+            </tr>
+        </table>
+    </div>
+</body>
+{% endif %}
 {% endblock %}

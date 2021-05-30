@@ -2,7 +2,7 @@ import os
 import json
 from lxml import etree
 import requests
-from flask import Flask, render_template,abort
+from flask import Flask, render_template,abort,request
 app = Flask(__name__)
 
 #Declaración de variables
@@ -93,7 +93,25 @@ def gol(equipo):
 
 @app.route('/premier',methods=["GET","POST"])
 def premier():
-    return render_template("premier.html")
+    r_competiciones=requests.get(URL_BASE+'competitions/list.json',params=payload)
+    dic_competiciones=r_competiciones.json()
+    for info in dic_competiciones["data"]["competition"]:
+        if info["name"]=="Premier League" and info["countries"][0]["name"]=="England":
+            payload["competition_id"]=info["id"]
+    r_premier_league=requests.get(URL_BASE+'leagues/table.json',params=payload)
+    dic_premier=r_premier_league.json()
+    lista_equipos=[]
+    for info in dic_premier["data"]["table"]:
+        lista_equipos.append(info["name"]+" --> "+info["team_id"])
+    if request.method == "GET":
+        return render_template("premier.html",lista_equipos=lista_equipos)
+    else:
+        payload["team1_id"]=request.form.get("team1_id")
+        payload["team2_id"]=request.form.get("team2_id")
+        r_head2head=requests.get(URL_BASE+'teams/head2head.json',params=payload)
+        dic_head2head=r_head2head.json()
+        lista=[dic_head2head["data"]["h2h"][0]["date"],dic_head2head["data"]["h2h"][0]["home_name"],dic_head2head["data"]["h2h"][0]["away_name"],dic_head2head["data"]["h2h"][0]["ft_score"]]
+        return render_template("premier.html",lista=lista,lista_equipos=lista_equipos)
 #port=os.environ["PORT"]
 #'0.0.0.0',int(port)
 app.run(debug=True)

@@ -924,7 +924,7 @@
                         <goals_conceded>7</goals_conceded>
                     </team>
                     <team>
-                        <name>Atlético de Madrid</name>
+                        <name>Atletico Madrid</name>
                         <rank>4</rank>
                         <points>12</points>
                         <played>7</played>
@@ -946,7 +946,7 @@
                         <goals_conceded>5</goals_conceded>
                     </team>
                     <team>
-                        <name>Alavés</name>
+                        <name>Alaves</name>
                         <rank>6</rank>
                         <points>11</points>
                         <played>7</played>
@@ -968,7 +968,7 @@
                         <goals_conceded>6</goals_conceded>
                     </team>
                     <team>
-                        <name>Celta</name>
+                        <name>Celta Vigo</name>
                         <rank>8</rank>
                         <points>10</points>
                         <played>7</played>
@@ -1023,7 +1023,7 @@
                         <goals_conceded>4</goals_conceded>
                     </team>
                     <team>
-                        <name>R.Sociedad</name>
+                        <name>Real Sociedad</name>
                         <rank>13</rank>
                         <points>8</points>
                         <played>7</played>
